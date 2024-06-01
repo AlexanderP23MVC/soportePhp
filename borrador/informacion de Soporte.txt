@@ -1,0 +1,37 @@
+debe tener el proyecto lo siguiente
+
+manual de instalaciones de los aplicativos
+manual de informe de Drivers
+
+instalacion
+configuracion
+accesos
+errores
+
+
+realizar cursossobre soporte IT
+
+contadores de impresora
+datos de la impresora 
+direccion ip
+descricion
+si esta o no operativa
+
+Resguardo de data de los usuarios a ser migrado
+fecha de guardado de data
+fecha limite para mantener la data resguardada
+
+imagenes resguardada
+imagenes por las que se crean segun la gerencia o tipo de equipo
+
+verificacion de las maquinas virtuales con sus descripciones
+
+
+Seccion interactiva del sistema 
+seccion de Noticias (informacion que aparecera de manera principal para que todos esten informado)
+dejar comentario al realizar una instalación,configuracion,error
+
+
+
+
+
