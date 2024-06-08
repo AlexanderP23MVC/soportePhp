@@ -33,4 +33,36 @@ class Home extends BaseController
         echo view('registerAplications');
     }
 
+    public function virtual(){
+        echo view('virtual');
+    }
+
+    public function equipment(){
+        echo view('equipment');
+
+    }
+
+    public function registerEquipment(){
+        echo view('registerEquipment');
+    }
+
+    public function backups(){
+        echo view('backups');
+    }
+
+    public function allCourse(){
+        echo view('allCourses');
+    }
+
+    public function course(){
+        echo view('courses');
+    }
+
+    public function registerCourses(){
+        echo view('registerCourses');
+    }
+
+    public function images(){
+        echo view('imagesSo');
+    }
 }
