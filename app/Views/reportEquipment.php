@@ -6,32 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Corona Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End Plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
   </head>
   <body>
     <div class="container-scroller">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="assets/images/logo.svg" alt="logo" /></a>
-          <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
         </div>
         <ul class="nav">
           <li class="nav-item profile">
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
@@ -168,7 +168,7 @@
         <!-- partial:../../partials/_navbar.html -->
         <nav class="navbar p-0 fixed-top d-flex flex-row">
           <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
-            <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+            <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../assets/images/logo-mini.svg" alt="logo" /></a>
           </div>
           <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
             <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
@@ -238,7 +238,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face4.jpg" alt="image" class="rounded-circle profile-pic">
+                      <img src="../../assets/images/faces/face4.jpg" alt="image" class="rounded-circle profile-pic">
                     </div>
                     <div class="preview-item-content">
                       <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
@@ -248,7 +248,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face2.jpg" alt="image" class="rounded-circle profile-pic">
+                      <img src="../../assets/images/faces/face2.jpg" alt="image" class="rounded-circle profile-pic">
                     </div>
                     <div class="preview-item-content">
                       <p class="preview-subject ellipsis mb-1">Cregh send you a message</p>
@@ -258,7 +258,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="assets/images/faces/face3.jpg" alt="image" class="rounded-circle profile-pic">
+                      <img src="../../assets/images/faces/face3.jpg" alt="image" class="rounded-circle profile-pic">
                     </div>
                     <div class="preview-item-content">
                       <p class="preview-subject ellipsis mb-1">Profile picture updated</p>
@@ -319,7 +319,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="">
+                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
                     <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
@@ -364,141 +364,50 @@
 
           <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title">Respaldo de Usuario</h4>
+                    <h4 class="card-title">Reportes de Contadores</h4>
                     
                     </p>
                     <div class="table-responsive">
-                      <table class="table table-striped">
+                      <table class="table table-hover">
                         <thead>
                           <tr>
-                            <th> User </th>
-                            <th> First name </th>
-                            <th> Gerencia </th>
-                            <th> Progress </th>
-                            <th> Tamaño GB </th>
-                            <th> Fecha </th>
-                            <th> Descargas </th> 
+                            <th>ID Contador</th>
+                            <th>Mes</th>
+                            <th>Fecha</th>
+                            <th>Archivo</th>
+                            
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-1.png" alt="image">
-                            </td>
-                            <td> Herman Beck </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> May 15, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
+                            <td>1</td>
+                            <td>8/06/2024</td>
+                            <td>Mes</td>
+                            <td> <button type="button" onclick="location.href='ReportEquipment'" class="btn btn-success btn-icon-text"><i class="mdi mdi-file-check btn-icon-prepend"></i> Reportes </button></td>
                           </tr>
                           <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-2.png" alt="image">
-                            </td>
-                            <td> Messsy Adam </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> July 1, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
+                            <td>Messsy</td>
+                            <td>Flash</td>
+                            <td>Mes</td>
+                            <td><label class="badge badge-warning">In progress</label></td>
                           </tr>
                           <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-3.png" alt="image">
-                            </td>
-                            <td> John Richards </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> Apr 12, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
+                            <td>John</td>
+                            <td>Premier</td>
+                            <td>Mes</td>
+                            <td><label class="badge badge-info">Fixed</label></td>
                           </tr>
                           <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-4.png" alt="image">
-                            </td>
-                            <td> Peter Meggik </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> May 15, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
+                            <td>Peter</td>
+                            <td>After effects</td>
+                            <td>mes</td>
+                            <td><label class="badge badge-success">Completed</label></td>
                           </tr>
                           <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-1.png" alt="image">
-                            </td>
-                            <td> Edward </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> May 03, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-2.png" alt="image">
-                            </td>
-                            <td> John Doe </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> April 05, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
-                          </tr>
-                          <tr>
-                            <td class="py-1">
-                              <img src="assets/images/faces-clipart/pic-3.png" alt="image">
-                            </td>
-                            <td> Henry Tom </td>
-                            <td>Nombre de la Gerencia</td>
-                            <td>Piso 7</td>
-                            <td>
-                              <div class="progress">
-                                <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                            </td>
-                            
-                            <td> June 16, 2015 </td>
-                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
-                            
+                            <td>Dave</td>
+                            <td>53275535</td>
+                            <td>Mes</td>
+                            <td><label class="badge badge-warning">In progress</label></td>
                           </tr>
                         </tbody>
                       </table>
@@ -523,16 +432,16 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="assets/js/off-canvas.js"></script>
-    <script src="assets/js/hoverable-collapse.js"></script>
-    <script src="assets/js/misc.js"></script>
-    <script src="assets/js/settings.js"></script>
-    <script src="assets/js/todolist.js"></script>
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <script src="../../assets/js/settings.js"></script>
+    <script src="../../assets/js/todolist.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->

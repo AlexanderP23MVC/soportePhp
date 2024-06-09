@@ -7,158 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Corona Admin</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End Plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" />
 </head>
 
 <body>
-    <style>
-
-        /* el estilo que coresponde a la card para los cursos */
-        .plan {
-            border-radius: 16px;
-            box-shadow: 0 30px 30px -25px rgba(0, 38, 255, 0.205);
-            padding: 10px;
-            background-color: #fff;
-            color: #697e91;
-            max-width: 300px;
-        }
-
-        .plan strong {
-            font-weight: 600;
-            color: #425275;
-        }
-
-        .plan .inner {
-            align-items: center;
-            padding: 20px;
-            padding-top: 40px;
-            background-color: #ecf0ff;
-            border-radius: 12px;
-            position: relative;
-        }
-
-        .plan .pricing {
-            position: absolute;
-            top: 0;
-            right: 0;
-            background-color: #bed6fb;
-            border-radius: 99em 0 0 99em;
-            display: flex;
-            align-items: center;
-            padding: 0.625em 0.75em;
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: #425475;
-        }
-
-        .plan .pricing small {
-            color: #707a91;
-            font-size: 0.75em;
-            margin-left: 0.25em;
-        }
-
-        .plan .title {
-            font-weight: 600;
-            font-size: 1.25rem;
-            color: #425675;
-        }
-
-        .plan .title+* {
-            margin-top: 0.75rem;
-        }
-
-        .plan .info+* {
-            margin-top: 1rem;
-        }
-
-        .plan .features {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .plan .features li {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .plan .features li+* {
-            margin-top: 0.75rem;
-        }
-
-        .plan .features .icon {
-            background-color: #1FCAC5;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            color: #fff;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-        }
-
-        .plan .features .icon svg {
-            width: 14px;
-            height: 14px;
-        }
-
-        .plan .features+* {
-            margin-top: 1.25rem;
-        }
-
-        .plan .action {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: end;
-        }
-
-        .plan .button {
-            background-color: #6558d3;
-            border-radius: 6px;
-            color: #fff;
-            font-weight: 500;
-            font-size: 1.125rem;
-            text-align: center;
-            border: 0;
-            outline: 0;
-            width: 100%;
-            padding: 0.625em 0.75em;
-            text-decoration: none;
-        }
-
-        .plan .button:hover,
-        .plan .button:focus {
-            background-color: #4133B7;
-        }
-    </style>
-
-
     <div class="container-scroller">
         <!-- partial:../../partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-                <a class="sidebar-brand brand-logo" href="../../index.html"><img src="assets/images/logo.svg"
+                <a class="sidebar-brand brand-logo" href="../../index.html"><img src="../../assets/images/logo.svg"
                         alt="logo" /></a>
-                <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="assets/images/logo-mini.svg"
-                        alt="logo" /></a>
+                <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img
+                        src="../../assets/images/logo-mini.svg" alt="logo" /></a>
             </div>
             <ul class="nav">
                 <li class="nav-item profile">
                     <div class="profile-desc">
                         <div class="profile-pic">
                             <div class="count-indicator">
-                                <img class="img-xs rounded-circle " src="assets/images/faces/face15.jpg" alt="">
+                                <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
                                 <span class="count bg-success"></span>
                             </div>
                             <div class="profile-name">
@@ -308,7 +185,7 @@
             <nav class="navbar p-0 fixed-top d-flex flex-row">
                 <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
                     <a class="navbar-brand brand-logo-mini" href="../../index.html"><img
-                            src="assets/images/logo-mini.svg" alt="logo" /></a>
+                            src="../../assets/images/logo-mini.svg" alt="logo" /></a>
                 </div>
                 <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
                     <button class="navbar-toggler navbar-toggler align-self-center" type="button"
@@ -383,7 +260,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="assets/images/faces/face4.jpg" alt="image"
+                                        <img src="../../assets/images/faces/face4.jpg" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -394,7 +271,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="assets/images/faces/face2.jpg" alt="image"
+                                        <img src="../../assets/images/faces/face2.jpg" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -405,7 +282,7 @@
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item preview-item">
                                     <div class="preview-thumbnail">
-                                        <img src="assets/images/faces/face3.jpg" alt="image"
+                                        <img src="../../assets/images/faces/face3.jpg" alt="image"
                                             class="rounded-circle profile-pic">
                                     </div>
                                     <div class="preview-item-content">
@@ -470,7 +347,8 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                                 <div class="navbar-profile">
-                                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="">
+                                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg"
+                                        alt="">
                                     <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
                                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                                 </div>
@@ -507,7 +385,7 @@
                     </ul>
                     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
                         data-toggle="offcanvas">
-                        <span class="mdi mdi-format-line-spacing"></span>
+                        <span class="mdi mdi-format-line-spacing "></span>
                     </button>
                 </div>
             </nav>
@@ -515,63 +393,61 @@
             <div class="main-panel">
                 <div class="content-wrapper">
 
-                    <div class="plan">
-                        <div class="inner">
-                            <span class="pricing">
-                                <span>
-                                     <small>Proximamente</small>
-                                </span>
-                            </span>
-                            <p class="title">Linux</p>
-                            <p class="info">Orientado a soporte con comandos Linux
-                            </p>
-                            <ul class="features">
-                                <li>
-                                    <span class="icon">
-                                        <svg height="24" width="24" viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path fill="currentColor"
-                                                d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                    <span><strong>Comandos</strong></span>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <svg height="24" width="24" viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path fill="currentColor"
-                                                d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                    <span><strong>Backups</strong></span>
-                                </li>
-                                <li>
-                                    <span class="icon">
-                                        <svg height="24" width="24" viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path fill="currentColor"
-                                                d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z">
-                                            </path>
-                                        </svg>
-                                    </span>
-                                    <span>Archivos</span>
-                                </li>
-                            </ul>
-                            <div class="action">
-                                <a class="button" href="Course">
-                                    Empezar Guia
-                                </a>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Lexmark 5810</h4>
+                            <p class="card-description">545ZXC5A4SD5<code>190.255.255.555</code></p>
+                            <button type="button" class="btn btn-primary btn-icon-text">
+                                <i class="mdi mdi-file-check btn-icon-prepend icon-sm"></i> Submit </button>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Contador</th>
+                                            <th>Descripcion</th>
+                                            <th>Fecha</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>3669656 pages</td>
+                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sint in
+                                                quos, assumenda neque, aperiam asperiores voluptas <br>maiores
+                                                perspiciatis suscipit non quod nihil inventore et aspernatur quae
+                                                cupiditate eius,<br>eveniet reprehenderit.</td>
+                                            <td>12 May 2017</td>
+                                            <td><label class="badge badge-success ">Editar</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>0 pages</td>
+                                            <td>El equipo se encuentra operativo en el area acordada</td>
+                                            <td>15 May 2017</td>
+                                            <td><label class="badge badge-warning">In progress</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>John</td>
+                                            <td>El equipo se encuentra operativo en el area acordada</td>
+                                            <td>14 May 2017</td>
+                                            <td><label class="badge badge-info">Fixed</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Peter</td>
+                                            <td>El equipo se encuentra operativo en el area acordada</td>
+                                            <td>16 May 2017</td>
+                                            <td><label class="badge badge-success">Completed</label></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dave</td>
+                                            <td>El equipo se encuentra operativo en el area acordada</td>
+                                            <td>20 May 2017</td>
+                                            <td><label class="badge badge-warning">In progress</label></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
-
-                    
 
                 </div>
                 <!-- content-wrapper ends -->
@@ -593,16 +469,16 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../../assets/vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <!-- End plugin js for this page -->
     <!-- inject:js -->
-    <script src="assets/js/off-canvas.js"></script>
-    <script src="assets/js/hoverable-collapse.js"></script>
-    <script src="assets/js/misc.js"></script>
-    <script src="assets/js/settings.js"></script>
-    <script src="assets/js/todolist.js"></script>
+    <script src="../../assets/js/off-canvas.js"></script>
+    <script src="../../assets/js/hoverable-collapse.js"></script>
+    <script src="../../assets/js/misc.js"></script>
+    <script src="../../assets/js/settings.js"></script>
+    <script src="../../assets/js/todolist.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->

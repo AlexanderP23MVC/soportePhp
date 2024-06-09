@@ -377,6 +377,7 @@
                             <th> Descripcion </th>
                             <th> Categoria </th>
                             <th> Fecha </th>
+                            <th>Descargas</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -391,6 +392,7 @@
                             <td> $ 77.99 </td>
                             <td> VMware </td>
                             <td> May 15, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 2 </td>
@@ -403,6 +405,7 @@
                             <td> $245.30 </td>
                             <td> VMware </td>
                             <td> July 1, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 3 </td>
@@ -415,6 +418,7 @@
                             <td> $138.00 </td>
                             <td> VMware </td>
                             <td> Apr 12, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 4 </td>
@@ -427,6 +431,7 @@
                             <td> $ 77.99 </td>
                             <td> VMware </td>
                             <td> May 15, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 5 </td>
@@ -439,6 +444,7 @@
                             <td> $ 160.25 </td>
                             <td> VMware </td>
                             <td> May 03, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 6 </td>
@@ -451,6 +457,7 @@
                             <td> $ 123.21 </td>
                             <td> VMware </td>
                             <td> April 05, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                           <tr>
                             <td> 7 </td>
@@ -463,6 +470,7 @@
                             <td> $ 150.00 </td>
                             <td> VMware </td>
                             <td> June 16, 2015 </td>
+                            <td><i class="mdi mdi-arrow-down-bold-circle-outline text-success icon-md"></i></td>
                           </tr>
                         </tbody>
                       </table>

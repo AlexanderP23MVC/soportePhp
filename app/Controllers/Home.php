@@ -42,6 +42,18 @@ class Home extends BaseController
 
     }
 
+    public function reportequipment(){
+        echo view('reportEquipment');
+    }
+
+    public function equipmentAccountants(){
+        echo view('equipmentAccountants');
+    }
+
+    public function allEquipmentAccountants(){
+        echo view('allEquipmentAccountants');
+    }
+
     public function registerEquipment(){
         echo view('registerEquipment');
     }
@@ -55,7 +67,7 @@ class Home extends BaseController
     }
 
     public function course(){
-        echo view('courses');
+        echo view('course');
     }
 
     public function registerCourses(){

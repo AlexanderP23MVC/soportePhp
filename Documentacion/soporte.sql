@@ -1,40 +1,40 @@
 CREATE TABLE "usuario" (
-  "id_usurio" serial PRIMARY KEY,
+  "id_usurio" integer PRIMARY KEY,
   "user" varchar,
   "password" varchar,
   "tokken" varchar
 );
 
 CREATE TABLE "sesion" (
-  "id_sesion" serial PRIMARY KEY,
+  "id_sesion" integer PRIMARY KEY,
   "id_usuario" integer,
   "sesion" bool,
   "id_fecha" integer
 );
 
 CREATE TABLE "aplicaciones" (
-  "id_aplicaciones" serial PRIMARY KEY,
+  "id_aplicaciones" integer PRIMARY KEY,
   "aplicacion" varchar,
   "id_categoria" integer
 );
 
 CREATE TABLE "categoria" (
-  "id_categoria" serial PRIMARY KEY,
+  "id_categoria" integer PRIMARY KEY,
   "categoria" varchar
 );
 
 CREATE TABLE "configuraciones" (
-  "id_configuraciones" serial PRIMARY KEY,
+  "id_configuraciones" integer PRIMARY KEY,
   "configuraciones" varchar
 );
 
 CREATE TABLE "pasos" (
-  "id_paso" serial PRIMARY KEY,
+  "id_paso" integer PRIMARY KEY,
   "pasos" integer
 );
 
 CREATE TABLE "indicaciones" (
-  "id_indicaciones" serial PRIMARY KEY,
+  "id_indicaciones" integer PRIMARY KEY,
   "id_usuario" integer,
   "id_aplicaciones" integer,
   "id_pasos" integer,
@@ -45,49 +45,49 @@ CREATE TABLE "indicaciones" (
 );
 
 CREATE TABLE "comentario" (
-  "id_comentario" serial PRIMARY KEY,
+  "id_comentario" integer PRIMARY KEY,
   "comentario" varchar,
   "id_indicaciones" integer,
   "id_usuario" integer
 );
 
 CREATE TABLE "crud" (
-  "id_crud" serial PRIMARY KEY,
+  "id_crud" integer PRIMARY KEY,
   "crud" varchar
 );
 
 CREATE TABLE "notificacion" (
-  "id_notificacion" serial PRIMARY KEY,
+  "id_notificacion" integer PRIMARY KEY,
   "id_indicaciones" integer,
   "id_crud" integer,
   "id_usuario" integer
 );
 
 CREATE TABLE "equipo" (
-  "id_equipo" serial PRIMARY KEY,
+  "id_equipo" integer PRIMARY KEY,
   "nombre" varchar,
   "serial" varchar,
-  "direccionIp" varchar,
-  "operativo" bool,
-  "descripcion" varchar
+  "direccionIp" varchar
 );
 
 CREATE TABLE "contadores" (
-  "id_contadores" serial PRIMARY KEY,
+  "id_contadores" integer PRIMARY KEY,
   "cantidad_impresion" integer,
+  "operativo" bool,
+  "descripcion" varchar,
   "id_equipo" integer,
   "id_fecha" integer,
   "id_usuario" integer
 );
 
 CREATE TABLE "empleados" (
-  "id_empleado" serial PRIMARY KEY,
+  "id_empleado" integer PRIMARY KEY,
   "nombre" varchar,
   "id_usuario" integer
 );
 
 CREATE TABLE "archivos" (
-  "id_archivos" serial PRIMARY KEY,
+  "id_archivos" integer PRIMARY KEY,
   "nombre_archivos" varchar,
   "ruta_archivos" varchar,
   "descripcion" varchar,
@@ -96,18 +96,18 @@ CREATE TABLE "archivos" (
 );
 
 CREATE TABLE "fechas" (
-  "id_fechas" serial PRIMARY KEY,
+  "id_fechas" integer PRIMARY KEY,
   "fecha" date
 );
 
 CREATE TABLE "plantilla" (
-  "id_plantilla" serial PRIMARY KEY,
+  "id_plantilla" integer PRIMARY KEY,
   "plantilla" varchar,
   "id_usuario" integer
 );
 
 CREATE TABLE "cursos" (
-  "id_curso" serial PRIMARY KEY,
+  "id_curso" integer PRIMARY KEY,
   "curso" varchar,
   "id_tipo_curso" integer,
   "id_usuario" integer,
@@ -115,12 +115,12 @@ CREATE TABLE "cursos" (
 );
 
 CREATE TABLE "tipo_curso" (
-  "id_tipo_curso" serial PRIMARY KEY,
+  "id_tipo_curso" integer PRIMARY KEY,
   "tipo_curso" varchar
 );
 
 CREATE TABLE "modulo" (
-  "id_modulo" serial PRIMARY KEY,
+  "id_modulo" integer PRIMARY KEY,
   "id_pasos" integer,
   "descripcion" varchar,
   "img" varchar,
@@ -128,7 +128,7 @@ CREATE TABLE "modulo" (
 );
 
 CREATE TABLE "finalizacion" (
-  "id_finalizacion" serial PRIMARY KEY,
+  "id_finalizacion" integer PRIMARY KEY,
   "id_curso" integer,
   "id_modulo" integer,
   "id_usuario" integer,

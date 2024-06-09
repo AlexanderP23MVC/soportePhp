@@ -1,3 +1,12 @@
+Herramientas Utilizadas:
+
+framenwork Codeigniter 4
+Front End Cora Template
+Xammp
+PHP 8.1
+PostgreSql16
+
+
 debe tener el proyecto lo siguiente
 
 manual de instalaciones de los aplicativos
@@ -16,6 +25,7 @@ datos de la impresora
 direccion ip
 descricion
 si esta o no operativa
+reporte mensual de los contadores
 
 Resguardo de data de los usuarios a ser migrado
 fecha de guardado de data
@@ -30,6 +40,7 @@ verificacion de las maquinas virtuales con sus descripciones
 Seccion interactiva del sistema 
 seccion de Noticias (informacion que aparecera de manera principal para que todos esten informado)
 dejar comentario al realizar una instalación,configuracion,error
+
 
 
 

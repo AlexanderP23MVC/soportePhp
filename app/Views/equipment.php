@@ -364,6 +364,11 @@
           <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Equipo</h4>
+                    
+                    <button type="button" onclick="location.href='AllEquipmentAccountants'" class="btn btn-primary btn-icon-text"><i class="mdi mdi-file-check btn-icon-prepend"></i>Contadores</button>
+                    <button type="button" onclick="location.href='AllEquipmentAccountants'" class="btn btn-warning btn-icon-text"><i class="mdi mdi-file-check btn-icon-prepend"></i> Pendientes </button>
+                    <button type="button" onclick="location.href='ReportEquipment'" class="btn btn-success btn-icon-text"><i class="mdi mdi-file-check btn-icon-prepend"></i> Reportes </button>
+
 
                     </p>
                     <div class="table-responsive">
@@ -373,87 +378,88 @@
                             <th>Equipos</th>
                             <th>Serial</th>
                             <th>Direccion IP</th>
-                            <th>Status</th>
-                            <th>Descripcion</th>
+                         
+                            <th>opciones</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-danger"> 190.255.255.555 <i class="mdi mdi-arrow-down"></i></td>
-                            <td><label class="badge badge-danger">Pending</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-danger"> <a href="http://190.255.255.555/" target="_blank">190.255.255.555</a> <i class="mdi mdi-arrow-down"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a><a href="EquipmentAccountants"><i class="mdi mdi-folder text-warning">Contadores</i></a></td>
+
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-danger"> 190.255.255.555 <i class="mdi mdi-arrow-down"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-danger"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-down"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-danger"> 190.255.255.555 <i class="mdi mdi-arrow-down"></i></td>
-                            <td><label class="badge badge-info">Fixed</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-danger"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-down"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-success">Completed</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                           <tr>
                             <td>Lexmark 5810</td>
                             <td>545ZXC5A4SD5</td>
-                            <td class="text-success"> 190.255.255.555 <i class="mdi mdi-arrow-up"></i></td>
-                            <td><label class="badge badge-warning">In progress</label></td>
-                            <td>El equipo se encuentra operativo en el area acordada</td>
+                            <td class="text-success"> <a href="https://190.255.255.555/" target="_blank" rel="noopener">190.255.255.555</a> <i class="mdi mdi-arrow-up"></i></td>
+                            
+                            <td><a href="update"><i class="mdi mdi-grease-pencil text-success">Update</i></a><a href="Delete"><i class="mdi mdi-delete text-danger">Delete</i></a></td>
                           </tr>
                         </tbody>
                       </table>

@@ -361,7 +361,20 @@
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
+              <h1>Linux</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni maiores ad fugit inventore perferendis, aliquid illo voluptate ab modi. Accusamus porro maiores eum eaque enim. Quo fugit harum quaerat odio.</p>
+              <img src="../../assets/images/auth/lockscreen-bg.jpg" width="500px" height="500px">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni maiores ad fugit inventore perferendis, aliquid illo voluptate ab modi. Accusamus porro maiores eum eaque enim. Quo fugit harum quaerat odio.</p>
+              <img src="../../assets/images/auth/lockscreen-bg.jpg" width="500px" height="500px">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni maiores ad fugit inventore perferendis, aliquid illo voluptate ab modi. Accusamus porro maiores eum eaque enim. Quo fugit harum quaerat odio.</p>
+              <img src="../../assets/images/auth/lockscreen-bg.jpg" width="500px" height="500px">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni maiores ad fugit inventore perferendis, aliquid illo voluptate ab modi. Accusamus porro maiores eum eaque enim. Quo fugit harum quaerat odio.</p>
+              <img src="../../assets/images/auth/lockscreen-bg.jpg" width="500px" height="500px">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni maiores ad fugit inventore perferendis, aliquid illo voluptate ab modi. Accusamus porro maiores eum eaque enim. Quo fugit harum quaerat odio.</p>
+              <img src="../../assets/images/auth/lockscreen-bg.jpg" width="500px" height="500px">
+              
           </div>
+          <button type="button" onclick="location.href='Finish'" class="btn btn-success btn-icon-text"><i class="mdi mdi-file-check btn-icon-prepend"></i> Finish </button>
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
           <footer class="footer">
